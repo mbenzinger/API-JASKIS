@@ -105,9 +105,13 @@ db.bounties.insertOne(
 
 // Update and Delete
 // 1. Update the reward for Polarwind to 10000
+//did not complete
 
 // 2. Remove Lokinkajou
+//db.bounties.deleteOne({name: "Lokinkajou"})
 
 // 3. Delete all bounties sent by Songbird
+//db.bounties.deleteMany({client: "Songbird"})
 
 // 4. Update all captured statuses to true
+//db.bounties.updateMany({captured: true})
